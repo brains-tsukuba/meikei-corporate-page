@@ -1,0 +1,2 @@
+helloooooyoualllll
+<?php phpinfo(); ?>
