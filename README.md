@@ -17,8 +17,7 @@ The `docker-compose.yml` are based on <a href="https://github.com/visiblevc/word
 	- For other OS : <a href="https://docs.docker.com/toolbox/overview/" target="_blank" rel="nofollow">Docker Toolbox</a>
 		- For other OS, from now on, when using docker, use Docker Quickstart Terminal. 
 		- Run `docker-machine ssh default -L 8080:localhost:8080`.
-		- Make a working directory to clone the repository under C:User/{your-name}
-	
+		- Make a working directory to clone the repository under `C:User/{your-name}`.
 2. Make sure you are not using localhost:8080 port with any other container or web server.
 3. Make sure you are not using container named "wpcontainer" or "dbcontainer".
 4. Clone the repository to your desired working directory.
@@ -49,7 +48,7 @@ Do `docker-compose up` to start developing again.
 
 # Login Info
 
-To login, open up  <a href="http://localhost:8080/wp-admin" target="_blank" rel="nofollow">localhost:8080/wp-admin</a>. Use info below to login.
+To login, open up  <a href="http://localhost:8080/wp-admin" target="_blank" rel="nofollow">localhost:8080/wp-admin</a>. Use info below to login. *Change them in the first Login!!*
 
 User: root
 
